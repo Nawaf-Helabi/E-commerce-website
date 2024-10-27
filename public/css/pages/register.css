@@ -1,0 +1,4 @@
+.main-register{
+    display: grid;
+    grid-template-rows: auto 1dvh auto;
+}

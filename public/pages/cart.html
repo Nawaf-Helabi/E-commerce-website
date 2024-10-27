@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/Header.css" />
+    <link rel="stylesheet" href="../css/Footer.css" />
+    <link rel="stylesheet" href="../all.min.css" />
+    <link rel="stylesheet" href="/css/pages/Card.css" />
+
+    <link
+      rel="shortcut icon"
+      href="/images/bag-shopping-solid.svg"
+      type="image/x-icon" />
+    <title>Card-details</title>
+  </head>
+  <body
+    style="
+      height: 100vh;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      align-items: center;
+    ">
+    <header class="flex">
+      <a class="logo" href="/index.html">
+        <i class="fa-solid fa-bag-shopping"></i>
+        <span style="font-weight: bold">AWU</span>
+        <p style="letter-spacing: 0.3px">shopping</p>
+      </a>
+      <div class="links">
+        <a class="cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span class="products-number">2</span>
+          cart</a
+        >
+        <a class="sign-in" href="./signin.html">
+          <i class="fa-solid fa-right-to-bracket"></i>
+          sign in</a
+        >
+        <a class="register" href="./register.html">
+          <i class="fa-solid fa-user-plus"></i>
+          register</a
+        >
+      </div>
+    </header>
+    <main>
+      <section class="sec-1">
+        <div>
+          <button><i class="fa-solid fa-trash-can"> </i></button>
+          <p>$300</p>
+          <span class="plus-mines">
+            <button class="mines">-</button>
+            <span class="products-number">2</span>
+            <button class="plus">+</button>
+          </span>
+
+          <h3>Product Title</h3>
+          <img src="/images//3.webp" alt="" />
+        </div>
+        <div>
+          <button><i class="fa-solid fa-trash-can"> </i></button>
+          <p>$300</p>
+          <span class="plus-mines">
+            <button class="mines">-</button>
+            <span class="products-number">2</span>
+            <button class="plus">+</button>
+          </span>
+          <h3>Product Title</h3>
+          <img src="/images/1.png" alt="" />
+        </div>
+        <div>
+          <button><i class="fa-solid fa-trash-can"> </i></button>
+          <p>$300</p>
+
+          <span class="plus-mines">
+            <button class="mines">-</button>
+            <span class="products-number">2</span>
+            <button class="plus">+</button>
+          </span>
+          <h3>Product Title</h3>
+          <img src="/images/2.webp" alt="" />
+        </div>
+      </section>
+      
+        <button class="btn-clear">
+          <i
+            style="color: #fff; margin-right: 0.2rem"
+            class="fa-solid fa-trash-can icon">
+          </i>
+          Clear Cart
+        </button>
+      
+
+      <section class="check-out">
+        <h3 class="cart-summary">Cart Summary</h3>
+        <div class="total">
+          <p>Subtotal</p>
+          <p>$1999</p>
+        </div>
+        <button disabled class="btn-check-out">CHECKOUT</button>
+        <a class="LnK" href="./signin.html">Please Sign in to continue.</a>
+      </section>
+    </main>
+    <footer>Designed and developed by <span>Nawaf Helabi</span> © 2024</footer>
+  </body>
+</html>

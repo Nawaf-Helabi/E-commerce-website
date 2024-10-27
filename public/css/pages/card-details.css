@@ -1,0 +1,80 @@
+header {
+  background: var(--footer-bg);
+  padding-block: 1.2rem;
+}
+header .logo {
+  color: var(--white);
+}
+header .logo i {
+  color: var(--white);
+}
+.links,
+.links i {
+  color: var(--white);
+}
+.sign-in:hover {
+  border: 1px solid red;
+  padding: 0.5rem 1rem;
+}
+.logo:hover{
+    scale: 0.95;
+
+}
+
+ .main-details{
+  width: 60%;
+  margin: 0 auto;
+  box-shadow: 0 0 2px 2px rgb(236, 225, 225);
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+  
+}
+.main-details img{
+  width: 35%;
+}
+ .main-details .content .sub-content{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 0;
+} 
+.main-details .content{
+  margin-block:10px;
+}
+
+ .content p{
+  padding-bottom:10px ;
+
+}
+
+.content button{
+  background: var(--blue-button);
+  color: var(--white);
+  border-radius: 9px;
+  padding: 5px;
+}
+.main-details .price{
+  color: var(--red-button);
+  padding-block: 50px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+@media (width<800px){
+  .main-details{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    
+  }
+  .main-details img{
+    width: 50%;
+  }
+  .main-details .content{
+    margin: 0;
+    padding: 20px;
+  }
+
+} 

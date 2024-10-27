@@ -1,0 +1,115 @@
+header {
+  background: var(--footer-bg);
+  padding-block: 0.3rem;
+}
+header .logo {
+  color: var(--white);
+}
+header .logo i {
+  color: var(--white);
+}
+.links,
+.links i {
+  color: var(--white);
+}
+/* .sign-in:hover {
+  border: 1px solid red;
+  padding: 0.5rem 1rem;
+} */
+.logo:hover {
+  scale: 0.95;
+}
+main .sec-1 {
+  max-width:450px;
+  margin: 30px auto;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .sec-1 div {
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid blue;
+  border-bottom: 2px solid rgb(133, 133, 136);
+  /* border-inline: 1px solid gray; */
+  border-radius: 7px;
+  box-shadow: 0 0 1px 1px rgb(218, 204, 204);
+  background: var(--white);
+
+}
+.fa-trash-can{
+    margin-left: 20px;
+color: var(--blue-button);
+}
+main .sec-1 div p {
+  margin-left: 20px;
+  font-weight: bold;
+}
+.plus-mines {
+  width: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+}
+.mines, .plus{
+    color: var(--blue-button);
+    font-size: 1.4rem;
+}
+.products-number {
+  background: rgba(53, 100, 255, 0.925);
+  color: white;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+main section div img {
+  height: 100%;
+  border-radius: 7px;
+}
+.btn-clear {
+  background: var(--red-button);
+  color: var(--white);
+  width: 90px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 7px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center
+}
+.btn-clear i{
+    margin: 0;
+}
+section.check-out{
+    box-shadow: 0 0 3px 3px rgb(231, 228, 228);
+    text-align: center;
+    width: 21%;
+    margin: 20px auto;
+
+}
+h3.cart-summary{
+    border-bottom: 3px solid rgb(231, 228, 228)  ;
+    padding: 10px;
+}
+div.total{
+    display: flex;
+    justify-content: space-between;
+    padding:6px;
+}
+button.btn-check-out{
+    width: 100%;
+    background: var(--blue-button);
+    color: var(--white);
+padding-block: 5px;}
+.LnK{
+    color: var(--red-button);
+    padding: 6px;
+}
